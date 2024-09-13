@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>mysql</title>
+    <link href="/2024/09/13/mysql/"/>
+    <url>/2024/09/13/mysql/</url>
+    
+    <content type="html"><![CDATA[<h3 id="事务"><a href="#事务" class="headerlink" title="事务"></a>事务</h3><ol><li>事务是一组操作的集合,这组集合,要么全部成功,要么全部失败。</li><li>事务操作  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs sql"><span class="hljs-keyword">start</span> transaction;  <span class="hljs-comment">-- 开启事务</span><br><span class="hljs-keyword">commit</span>; rowback;    <span class="hljs-comment">-- 事务提交/回滚</span><br></code></pre></td></tr></table></figure></li><li>事务的四大特性：原子性，一致性，隔离性，持久性</li><li>并发事务问题：脏读，不可重复读，幻读</li><li>事务隔离级别<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs sql">read uncommit  <br>read <span class="hljs-keyword">commit</span><br>repeatable read<br>serializable<br></code></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>My New Post</title>
     <link href="/2024/09/13/My-New-Post/"/>
     <url>/2024/09/13/My-New-Post/</url>
